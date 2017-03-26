@@ -1,0 +1,68 @@
+.wrapper {
+    width: 1085px;
+    height: 564px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-1 {
+    width: 432px;
+    height: 534px;
+    float: left;
+    margin-right: 25px;
+}
+
+.block__text{
+    transition: all 1s ease-out;
+    padding: 10px;
+    width: 410px;
+}
+
+.block-2 {
+    width: 435px;
+    height: 267px;
+    float: left;
+    transition: all 1s ease-out;
+    margin-bottom: 25px;
+}
+
+.block-3 {
+    width: 435px;
+    height: 267px;
+    float: left;
+    transition: all 1s ease-out;
+}
+
+.block-clip {
+    position: absolute;
+    clip: rect(5px, 430px, 262px, 5px);
+    transition: all 0.15s ease-out;
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+
+.block-clip:hover {
+    position: absolute;
+    clip: rect(0px, 435px, 267px, 0px);
+    transition: all 0.15s ease-out;
+    cursor: pointer;
+}
+
+.block-clip--big {
+    clip: rect(5px, 420px, 545px, 5px);
+}
+
+.block-clip--big:hover {
+    clip: rect(0px, 435px, 664px, 0px);
+}
+
+.block__text-1 p{
+    width: 190px;
+    margin-right: 30px;
+}
+
+.block__text-1 {
+    padding: 10px;
+    float: left;
+    width: 210px;
+}
